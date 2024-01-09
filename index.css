@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top{
+    background-color: antiquewhite;
+    padding: 20px 25px;
+    font-size: 18px;
+
+
+}
+.top > p:first-child{
+    width: 45%;
+    float: left; 
+    padding: 0 20px;
+}
+.top>p:last-child{
+    width: 45%;
+    float: left;
+    text-align: end;
+}
+
+.header{
+    background-color: rgb(255, 255, 255); 
+    padding: 15px 30px;
+
+}
+.header>p{
+    width: 50%;
+    float: left;
+    font-size: 61px;
+    padding-left: 3ch;
+}
+.header>
+ul{
+   padding: 20px 30px; 
+   text-align: center;
+}
+.header>ul>li{
+    display: inline;
+    padding: 0 20px;
+}
+.header>ul>li>a{
+    color: black;
+    font-size: 22px;
+    padding: 8px 17px;
+    text-decoration: none;
+}
+#active>a{
+    background-color: rgb(255, 145, 0);
+    color: white;
+    border-radius: 5px;
+}
+
+
+.back{
+    background-image: url("image/back.jpg");
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.back > h1{
+    padding-top: 8ch;
+} 
+.back > P {
+    padding: 10px 15px ;
+    font-size: 22px;
+}
+.back>button{
+    padding: 8px 10px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-size: 18px;
+    border: 1px solid rgb(255, 163, 44);
+    border-radius: 5px;
+}
+
+
+.said{
+    text-align: center;
+    font-family:sans-serif;
+    padding: 5ch;
+}
+.said> p:first-child{
+    font-size: 40px;
+    padding: 5px;
+}
+.said > p:last-child{
+    padding: 5px;
+}
+
+
+.first-side{
+    width: 31%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.first-side>h2{
+    padding: 10px;
+}
+.first-side>p{
+    text-align: justify;
+    padding: 20px;
+    font-size: 18px;
+}
+.first-side>button{
+    padding: 8px 10px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-size: 18px;
+    border: 1px solid rgb(255, 163, 44);
+    border-radius: 5px;
+}
+
+
+.scend-side{
+    width: 31%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.scend-side>h2{
+    padding: 10px;
+}
+.scend-side>p{
+    text-align: justify;
+    padding: 20px;
+    font-size: 18px;
+}
+.scend-side>button{
+    padding: 8px 10px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-size: 18px;
+    border: 1px solid rgb(255, 163, 44);
+    border-radius: 5px;
+}
+
+
+.therd-side{
+    width: 31%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.therd-side>h2{
+    padding: 10px;
+}
+.therd-side>p{
+    text-align: justify;
+    padding: 20px;
+    font-size: 18px;
+}
+.therd-side>button{
+    padding: 8px 10px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-size: 18px;
+    border: 1px solid rgb(255, 163, 44);
+    border-radius: 5px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .first-side{
+        width: 100px;
+    }
+    .scend-side{
+        width: 100%;
+    }
+    .therd-side{
+        width: 100px;
+    }
+} 
+
+
